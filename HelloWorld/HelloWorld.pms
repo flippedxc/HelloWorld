@@ -1,0 +1,59 @@
+;1	05.01.2018 14:50:27	vstoyanova	
+X0 de07a8 0 cbea55a 0 0 0 0
+
+X2 cbea55a de07a8 0 2f184e8b 0 0 2
+Hello World Test
+P_Property
+Hello World!
+A_Name_STR
+World
+X2 2f184e8b de07a8 0 0 0 0 2
+Hello MyName Test
+P_Property
+Hello MyName!
+A_Name_STR
+MyName
+O0 de0694 0 0 0 0 0 0
+
+E0 de06f0 0 0 0 0 0 0
+
+L0 de074c 0 0 0 0 0 0
+
+B0 de08bc 0 0 0 0 0 0
+
+P1 de0804 0 4eda3d4b 0 0 0 2
+
+--description
+This is a sample pms file.
+P4 4eda3d4b de0804 0 0 0 0 2
+Root
+IncType
+mandatory
+IncRule
+
+IncValue
+
+P_Property
+"Hello " & A_Name_STR & "!"
+F0 de0860 0 0 0 0 0 0
+
+A0 de0918 0 35bc7446 0 0 0 0
+
+A1 35bc7446 de0918 0 0 0 0 2
+A_Name_STR
+default
+"World"
+T0 de0974 0 0 0 0 0 0
+
+-
+O0
+E0
+L0
+B0
+P1
+4eda3d4b
+F0
+A1
+35bc7446
+T0
+;Offset=00000000
