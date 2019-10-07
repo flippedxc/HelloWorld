@@ -1,0 +1,7 @@
+*.bat eol=crlf
+*.cmd eol=crlf
+*.pms binary
+*.PMS binary
+*.vpm binary
+*.VPM binary
+
