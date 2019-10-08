@@ -1,4 +1,4 @@
-;1	07.10.2019 21:09:27	flippe	
+;1	08.10.2019 10:52:47	flippe	
 X0 de07a8 0 cbea55a 0 0 0 0
 
 X2 cbea55a de07a8 0 2f184e8b 0 0 2
@@ -25,7 +25,7 @@ P1 de0804 0 4eda3d4b 0 0 0 2
 
 --description
 This is a sample pms file.
-P5 4eda3d4b de0804 0 0 0 0 2
+P6 4eda3d4b de0804 0 0 0 0 2
 Root
 IncType
 mandatory
@@ -37,6 +37,8 @@ P_Property
 "Hello " & A_Name_STR & "!"
 P_Property2
 "Hello " & A_Name2_STR & "!"
+P_Property3
+"Hello " & A_Name3_STR & "!"
 F0 de0860 0 0 0 0 0 0
 
 A0 de0918 0 35bc7446 0 0 0 0
@@ -45,8 +47,12 @@ A1 35bc7446 de0918 0 e2b9fe0 0 0 2
 A_Name_STR
 default
 "World"
-A1 e2b9fe0 de0918 0 0 0 0 2
+A1 e2b9fe0 de0918 0 33f6ab6c 0 0 2
 A_Name2_STR
+default
+"World"
+A1 33f6ab6c de0918 0 0 0 0 2
+A_Name3_STR
 default
 "World"
 T0 de0974 0 0 0 0 0 0
@@ -59,8 +65,9 @@ B0
 P1
 4eda3d4b
 F0
-A2
+A3
 35bc7446
 e2b9fe0
+33f6ab6c
 T0
 ;Offset=00000000
