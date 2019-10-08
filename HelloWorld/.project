@@ -10,16 +10,10 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-		<buildCommand>
-			<name>com.csc.dip.pms.checker.ui.CheckerBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>com.csc.dip.mm.core.ProductModuleNature</nature>
 		<nature>com.csc.dip.mm.core.CommonModuleNature</nature>
 		<nature>com.csc.dip.mm.core.ModelManagerNature</nature>
-		<nature>com.csc.dip.pms.checker.ui.CheckerNature</nature>
 	</natures>
 </projectDescription>
