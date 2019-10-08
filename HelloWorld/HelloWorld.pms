@@ -1,4 +1,4 @@
-;1	08.10.2019 10:57:03	flippe	
+;1	08.10.2019 20:52:54	flippe	
 X0 de07a8 0 cbea55a 0 0 0 0
 
 X2 cbea55a de07a8 0 2f184e8b 0 0 2
@@ -7,12 +7,24 @@ P_Property
 Hello World!
 A_Name_STR
 World
-X2 2f184e8b de07a8 0 0 0 0 2
+X2 2f184e8b de07a8 0 5f8ad82f 0 0 2
 Hello MyName Test
 P_Property
 Hello MyName!
 A_Name_STR
 MyName
+X2 5f8ad82f de07a8 0 5430fbc8 0 0 2
+P_Property3
+P_Property3
+Hello World!
+A_Name3_STR
+World
+X2 5430fbc8 de07a8 0 0 0 0 2
+P_Property2
+P_Property2
+Hello World!
+A_Name2_STR
+World
 O0 de0694 0 0 0 0 0 0
 
 E0 de06f0 0 0 0 0 0 0
@@ -25,7 +37,7 @@ P1 de0804 0 4eda3d4b 0 0 0 2
 
 --description
 This is a sample pms file.
-P4 4eda3d4b de0804 0 0 0 0 2
+P6 4eda3d4b de0804 0 0 0 0 2
 Root
 IncType
 mandatory
@@ -35,6 +47,10 @@ IncValue
 
 P_Property
 "Hello " & A_Name_STR & "!"
+P_Property2
+"Hello " & A_Name2_STR & "!"
+P_Property3
+"Hello " & A_Name3_STR & "!"
 F0 de0860 0 0 0 0 0 0
 
 A0 de0918 0 35bc7446 0 0 0 0
