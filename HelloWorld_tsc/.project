@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HelloWorld_tsc</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.csc.dip.mm.core.CommonModuleBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.csc.dip.mm.core.CommonModuleNature</nature>
+		<nature>com.csc.dip.mm.core.ModelManagerNature</nature>
+	</natures>
+</projectDescription>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_212" class="java.beans.XMLDecoder">
+ <object class="com.csc.dip.mm.testsuite.center.ui.TestSuiteCenterModel" id="TestSuiteCenterModel0">
+  <void property="tasks">
+   <void method="add">
+    <object class="com.csc.dip.vpms.testsuite.tasks.TestStockExecuteTask">
+     <void property="tsrName">
+      <string>/HelloWorld_tsc/HelloWorld.tsr</string>
+     </void>
+     <void property="tstName">
+      <string>/HelloWorld_tsc/HelloWorld.tst</string>
+     </void>
+     <void property="vpmName">
+      <string>/HelloWorld/HelloWorld.vpm</string>
+     </void>
+     <void property="zipTestResultFile">
+      <boolean>false</boolean>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.csc.dip.vpms.testsuite.tasks.TestStockResult2JUnitXMLTask">
+     <void property="junitFileId">
+      <string>/HelloWorld_tsc/HelloWorld.xml</string>
+     </void>
+     <void property="tsrFileId">
+      <string>/HelloWorld_tsc/HelloWorld.tsr</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>

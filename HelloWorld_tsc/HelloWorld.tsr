@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teststock>
+	<info date="2019-10-10 10:09:09" type="Tests ausführen">
+		<entry value="Tests ausführen" key="name"/>
+		<entry value="flippe" key="user"/>
+		<entry value="" key="comment"/>
+		<entry value="/HelloWorld_tsc/HelloWorld.tst" key="tst"/>
+		<entry value="/HelloWorld/HelloWorld.vpm" key="vpm"/>
+	</info>
+	<info date="2019-10-10 09:58:43" type="Importiere aus Produktmodell (*.pms)">
+		<entry value="Importiere aus Produktmodell (*.pms)" key="name"/>
+		<entry value="flippe" key="user"/>
+		<entry value="" key="comment"/>
+		<entry value="/HelloWorld/HelloWorld.pms" key="pms"/>
+	</info>
+	<testcase name="Hello World Test">
+		<set name="A_Name_STR" value="World"/>
+		<compute name="P_Property">
+			<expected>
+				<item value="Hello World!" key="result"/>
+			</expected>
+			<actual>
+				<item value="Hello World!" key="result"/>
+				<item value="0" key="returncode"/>
+				<item value="" key="fieldref"/>
+				<item value="239" key="exectime"/>
+				<item value="" key="message"/>
+			</actual>
+			<comparator>
+				<item method="exact" key="result"/>
+				<item method="exact" key="returncode"/>
+				<item method="exact" key="fieldref"/>
+				<item method="ignore" key="exectime"/>
+				<item method="exact" key="message"/>
+			</comparator>
+			<compare-result result="passed">
+				<item code="passed" key="result"/>
+				<item code="not-tested" key="returncode"/>
+				<item code="not-tested" key="fieldref"/>
+				<item code="not-tested" key="exectime"/>
+				<item code="not-tested" key="message"/>
+			</compare-result>
+		</compute>
+		<testcase-statistic>
+			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
+			<compute-times number="1" min="239" avg="239" max="239" avg-ms="0.239" sum-sec="0.000239" sum-ms="0.239" sum="239" avg-sec="0.000239"/>
+			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
+		</testcase-statistic>
+	</testcase>
+	<testcase name="Hello MyName Test">
+		<set name="A_Name_STR" value="MyName"/>
+		<compute name="P_Property">
+			<expected>
+				<item value="Hello MyName!" key="result"/>
+			</expected>
+			<actual>
+				<item value="Hello MyName!" key="result"/>
+				<item value="0" key="returncode"/>
+				<item value="" key="fieldref"/>
+				<item value="93" key="exectime"/>
+				<item value="" key="message"/>
+			</actual>
+			<comparator>
+				<item method="exact" key="result"/>
+				<item method="exact" key="returncode"/>
+				<item method="exact" key="fieldref"/>
+				<item method="ignore" key="exectime"/>
+				<item method="exact" key="message"/>
+			</comparator>
+			<compare-result result="passed">
+				<item code="passed" key="result"/>
+				<item code="not-tested" key="returncode"/>
+				<item code="not-tested" key="fieldref"/>
+				<item code="not-tested" key="exectime"/>
+				<item code="not-tested" key="message"/>
+			</compare-result>
+		</compute>
+		<testcase-statistic>
+			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
+			<compute-times number="1" min="93" avg="93" max="93" avg-ms="0.093" sum-sec="0.000093" sum-ms="0.093" sum="93" avg-sec="0.000093"/>
+			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
+		</testcase-statistic>
+	</testcase>
+	<testcase name="P_Property3">
+		<set name="A_Name3_STR" value="World"/>
+		<compute name="P_Property3">
+			<expected>
+				<item value="Hello World!" key="result"/>
+			</expected>
+			<actual>
+				<item value="Hello World!" key="result"/>
+				<item value="0" key="returncode"/>
+				<item value="" key="fieldref"/>
+				<item value="110" key="exectime"/>
+				<item value="" key="message"/>
+			</actual>
+			<comparator>
+				<item method="exact" key="result"/>
+				<item method="exact" key="returncode"/>
+				<item method="exact" key="fieldref"/>
+				<item method="ignore" key="exectime"/>
+				<item method="exact" key="message"/>
+			</comparator>
+			<compare-result result="passed">
+				<item code="passed" key="result"/>
+				<item code="not-tested" key="returncode"/>
+				<item code="not-tested" key="fieldref"/>
+				<item code="not-tested" key="exectime"/>
+				<item code="not-tested" key="message"/>
+			</compare-result>
+		</compute>
+		<testcase-statistic>
+			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
+			<compute-times number="1" min="110" avg="110" max="110" avg-ms="0.11" sum-sec="0.00011" sum-ms="0.11" sum="110" avg-sec="0.00011"/>
+			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
+		</testcase-statistic>
+	</testcase>
+	<testcase name="P_Property2">
+		<set name="A_Name2_STR" value="World"/>
+		<compute name="P_Property2">
+			<expected>
+				<item value="Hello World!" key="result"/>
+			</expected>
+			<actual>
+				<item value="Hello World!" key="result"/>
+				<item value="0" key="returncode"/>
+				<item value="" key="fieldref"/>
+				<item value="95" key="exectime"/>
+				<item value="" key="message"/>
+			</actual>
+			<comparator>
+				<item method="exact" key="result"/>
+				<item method="exact" key="returncode"/>
+				<item method="exact" key="fieldref"/>
+				<item method="ignore" key="exectime"/>
+				<item method="exact" key="message"/>
+			</comparator>
+			<compare-result result="passed">
+				<item code="passed" key="result"/>
+				<item code="not-tested" key="returncode"/>
+				<item code="not-tested" key="fieldref"/>
+				<item code="not-tested" key="exectime"/>
+				<item code="not-tested" key="message"/>
+			</compare-result>
+		</compute>
+		<testcase-statistic>
+			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
+			<compute-times number="1" min="95" avg="95" max="95" avg-ms="0.095" sum-sec="0.000095" sum-ms="0.095" sum="95" avg-sec="0.000095"/>
+			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
+		</testcase-statistic>
+	</testcase>
+	<teststock-statistic>
+		<testcase-compare-summary number="4" passed-with-deviation="0" not-tested="0" passed="4" failed="0"/>
+		<compute-compare-summary number="4" passed-with-deviation="0" not-tested="0" failed="0" passed="4"/>
+		<compute-times number="4" min="93" avg="134" max="239" avg-ms="0.134" sum-sec="0.000537" sum-ms="0.537" sum="537" avg-sec="0.000134"/>
+		<set-times number="4" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
+	</teststock-statistic>
+</teststock>

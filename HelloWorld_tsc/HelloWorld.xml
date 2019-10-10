@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite tests="1" failures="0" name="Hello World Test" time="0">
+		<testcase name="P_Property" time="0">
+		</testcase>
+	</testsuite>
+	<testsuite tests="1" failures="0" name="Hello MyName Test" time="0">
+		<testcase name="P_Property" time="0">
+		</testcase>
+	</testsuite>
+	<testsuite tests="1" failures="0" name="P_Property3" time="0">
+		<testcase name="P_Property3" time="0">
+		</testcase>
+	</testsuite>
+	<testsuite tests="1" failures="0" name="P_Property2" time="0">
+		<testcase name="P_Property2" time="0">
+		</testcase>
+	</testsuite>
+</testsuites>
