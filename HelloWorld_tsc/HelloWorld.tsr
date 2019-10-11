@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <teststock>
-	<info date="2019-10-10 10:09:09" type="Tests ausführen">
+	<info date="2019-10-11 14:14:44" type="Tests ausführen">
 		<entry value="Tests ausführen" key="name"/>
 		<entry value="flippe" key="user"/>
 		<entry value="" key="comment"/>
@@ -23,7 +23,7 @@
 				<item value="Hello World!" key="result"/>
 				<item value="0" key="returncode"/>
 				<item value="" key="fieldref"/>
-				<item value="239" key="exectime"/>
+				<item value="426" key="exectime"/>
 				<item value="" key="message"/>
 			</actual>
 			<comparator>
@@ -43,7 +43,7 @@
 		</compute>
 		<testcase-statistic>
 			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
-			<compute-times number="1" min="239" avg="239" max="239" avg-ms="0.239" sum-sec="0.000239" sum-ms="0.239" sum="239" avg-sec="0.000239"/>
+			<compute-times number="1" min="426" avg="426" max="426" avg-ms="0.426" sum-sec="0.000426" sum-ms="0.426" sum="426" avg-sec="0.000426"/>
 			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
 		</testcase-statistic>
 	</testcase>
@@ -57,7 +57,7 @@
 				<item value="Hello MyName!" key="result"/>
 				<item value="0" key="returncode"/>
 				<item value="" key="fieldref"/>
-				<item value="93" key="exectime"/>
+				<item value="67" key="exectime"/>
 				<item value="" key="message"/>
 			</actual>
 			<comparator>
@@ -77,7 +77,7 @@
 		</compute>
 		<testcase-statistic>
 			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
-			<compute-times number="1" min="93" avg="93" max="93" avg-ms="0.093" sum-sec="0.000093" sum-ms="0.093" sum="93" avg-sec="0.000093"/>
+			<compute-times number="1" min="67" avg="67" max="67" avg-ms="0.067" sum-sec="0.000067" sum-ms="0.067" sum="67" avg-sec="0.000067"/>
 			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
 		</testcase-statistic>
 	</testcase>
@@ -91,7 +91,7 @@
 				<item value="Hello World!" key="result"/>
 				<item value="0" key="returncode"/>
 				<item value="" key="fieldref"/>
-				<item value="110" key="exectime"/>
+				<item value="51" key="exectime"/>
 				<item value="" key="message"/>
 			</actual>
 			<comparator>
@@ -111,7 +111,7 @@
 		</compute>
 		<testcase-statistic>
 			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
-			<compute-times number="1" min="110" avg="110" max="110" avg-ms="0.11" sum-sec="0.00011" sum-ms="0.11" sum="110" avg-sec="0.00011"/>
+			<compute-times number="1" min="51" avg="51" max="51" avg-ms="0.051" sum-sec="0.000051" sum-ms="0.051" sum="51" avg-sec="0.000051"/>
 			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
 		</testcase-statistic>
 	</testcase>
@@ -125,7 +125,7 @@
 				<item value="Hello World!" key="result"/>
 				<item value="0" key="returncode"/>
 				<item value="" key="fieldref"/>
-				<item value="95" key="exectime"/>
+				<item value="77" key="exectime"/>
 				<item value="" key="message"/>
 			</actual>
 			<comparator>
@@ -145,14 +145,14 @@
 		</compute>
 		<testcase-statistic>
 			<compute-compare-summary number="1" passed-with-deviation="0" not-tested="0" failed="0" passed="1"/>
-			<compute-times number="1" min="95" avg="95" max="95" avg-ms="0.095" sum-sec="0.000095" sum-ms="0.095" sum="95" avg-sec="0.000095"/>
+			<compute-times number="1" min="77" avg="77" max="77" avg-ms="0.077" sum-sec="0.000077" sum-ms="0.077" sum="77" avg-sec="0.000077"/>
 			<set-times number="1" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
 		</testcase-statistic>
 	</testcase>
 	<teststock-statistic>
 		<testcase-compare-summary number="4" passed-with-deviation="0" not-tested="0" passed="4" failed="0"/>
 		<compute-compare-summary number="4" passed-with-deviation="0" not-tested="0" failed="0" passed="4"/>
-		<compute-times number="4" min="93" avg="134" max="239" avg-ms="0.134" sum-sec="0.000537" sum-ms="0.537" sum="537" avg-sec="0.000134"/>
+		<compute-times number="4" min="51" avg="155" max="426" avg-ms="0.155" sum-sec="0.000621" sum-ms="0.621" sum="621" avg-sec="0.000155"/>
 		<set-times number="4" min="0" avg="0" max="0" avg-ms="0.0" sum-sec="0" sum-ms="0.0" sum="0" avg-sec="0"/>
 	</teststock-statistic>
 </teststock>
