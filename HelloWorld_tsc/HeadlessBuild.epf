@@ -1,13 +1,32 @@
-#Fri Oct 11 14:16:57 CEST 2019
+#Wed Nov 06 14:38:59 CET 2019
 \!/=
 /instance/com.csc.dip.mm/aliasIniFilename=ALIAS.INI
 /instance/com.csc.dip.mm/aliasIniFolder=C\:\\Users\\Public\\Documents
+/instance/com.csc.dip.mm/generateStylerWebApp=true
 /instance/com.csc.dip.mm/testCenterAfterCompile=true
+/instance/com.csc.dip.pms.ui/compiler.option.attribute.usage.report=true
+/instance/com.csc.dip.pms.ui/compiler.option.generate.profile.mapping.file=true
+/instance/com.csc.dip.pms.ui/compiler.option.treeinfo=true
+/instance/com.csc.dip.pms.ui/profile.wizard.clear.vpr=true
+/instance/com.csc.dip.pms.ui/profile.wizard.interations=10
+/instance/com.csc.dip.pms.ui/profile.wizard.open.view=true
+/instance/com.csc.dip.pms.ui/profile.wizard.pms.filename=C\:\\Users\\flippe\\git\\HelloWorld\\HelloWorld\\HelloWorld.pms
+/instance/com.csc.dip.pms.ui/profile.wizard.vpm.filename=C\:\\Users\\flippe\\git\\HelloWorld\\HelloWorld\\HelloWorld.vpm
+/instance/com.csc.dip.pms.ui/profile.wizard.vpr.filename=C\:\\Users\\flippe\\git\\HelloWorld\\HelloWorld\\HelloWorld.vprxe
 /instance/com.csc.dip.pms.ui/vpmsActivePreferenceProfile=HeadlessBuild
 /instance/com.csc.dip.wb.ui.base/currentPropsWeightForAttributeViewer=1.0
 /instance/com.csc.dip.wb.ui.base/currentPropsWeightForProductViewer=1.0
+/instance/com.csc.dip.wb.ui.base/currentPropsWeightForTableViewer=1.0
 /instance/com.csc.dip.wb.ui.base/linkOutlineSelectionWithWorkbench=false
-@com.csc.dip.mm=9603.35.1.201910101008
-@com.csc.dip.pms.ui=9603.35.1.201910101008
-@com.csc.dip.wb.ui.base=9603.35.1.201910101008
+/instance/com.csc.dip.xe.profile.ui/com.csc.dip.xe.profile.linkCostType=0
+/instance/com.csc.dip.xe.profile.ui/com.csc.dip.xe.profile.linkMinimumRelativeValue=0.05
+/instance/com.csc.dip.xe.profile.ui/com.csc.dip.xe.profile.maxNumberOfNodes=10
+/instance/com.csc.dip.xe.profile.ui/com.csc.dip.xe.profile.nodestreepage_v5_columns_comparator=0;1;2;3;4;5;38;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;36;37;
+/instance/com.csc.dip.xe.profile.ui/com.csc.dip.xe.profile.nodestreepage_v5_columns_comparator_used=8;
+/instance/com.csc.dip.xe.profile.ui/com.csc.dip.xe.profile.nodestreepage_v5_columns_visible=0;1;2;4;8;9;10;13;22;23;24;27;37;38;
+/instance/com.csc.dip.xe.profile.ui/com.csc.dip.xe.profile.nodestreepage_v5_columns_width=250;25;80;80;80;80;80;80;80;80;80;80;80;204;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;80;120;120;80;
+@com.csc.dip.mm=9603.34.0
+@com.csc.dip.pms.ui=9603.34.0
+@com.csc.dip.wb.ui.base=9603.34.0
+@com.csc.dip.xe.profile.ui=9603.34.0
 file_export_version=3.0

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stylerDocument version="1">
+  <uiModel id="ID_jAOHMACVEeqr9I5ZF_4NwA">
+    <properties>
+      <property propertyType="hasLocaleAttributes">
+        <simpleConstantValue valueType="FalseValue"></simpleConstantValue>
+      </property>
+    </properties>
+    <rootElements>
+      <uiGroup id="ID_jAqMEACVEeqr9I5ZF_4NwA" widgetType="page">
+        <properties>
+          <property propertyType="styles">
+            <simpleEditableListValue valueType="StylesValue"></simpleEditableListValue>
+          </property>
+          <property propertyType="caption">
+            <simpleEditableSingleValue valueType="StringValue" value=""></simpleEditableSingleValue>
+          </property>
+          <property propertyType="multiple">
+            <simpleConstantValue valueType="MultipleFalse"></simpleConstantValue>
+          </property>
+          <property propertyType="visible">
+            <simpleConstantValue valueType="TrueValue"></simpleConstantValue>
+          </property>
+          <property propertyType="editable">
+            <simpleConstantValue valueType="TrueValue"></simpleConstantValue>
+          </property>
+          <property propertyType="required">
+            <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+          </property>
+          <property propertyType="description">
+            <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+          </property>
+          <property propertyType="validationMessage">
+            <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+          </property>
+          <property propertyType="layout">
+            <compoundValue valueType="SequentialFormLayout">
+              <properties>
+                <property propertyType="numberOfColumns">
+                  <simpleEditableSingleValue valueType="NumberOfColumnsValue" value="2"></simpleEditableSingleValue>
+                </property>
+              </properties>
+            </compoundValue>
+          </property>
+        </properties>
+        <children>
+          <uiAtom id="A_Name_STR" widgetType="text">
+            <properties>
+              <property propertyType="textValue">
+                <simpleEditableSingleValue valueType="VPMSAttributeValueProvider" value="A_Name_STR"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="textAlignment">
+                <simpleEditableSingleValue valueType="AlignmentValue" value="left"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="styles">
+                <simpleEditableListValue valueType="StylesValue"></simpleEditableListValue>
+              </property>
+              <property propertyType="caption">
+                <simpleEditableSingleValue valueType="StringValue" value="Name"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="captionAlignment">
+                <simpleEditableSingleValue valueType="AlignmentValue" value="left"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="visible">
+                <simpleConstantValue valueType="TrueValue"></simpleConstantValue>
+              </property>
+              <property propertyType="editable">
+                <simpleConstantValue valueType="TrueValue"></simpleConstantValue>
+              </property>
+              <property propertyType="required">
+                <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+              </property>
+              <property propertyType="pomDataType">
+                <simpleEditableSingleValue valueType="PomDataTypeValue" value="string"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="formatter">
+                <simpleEditableSingleValue valueType="FormattingValue" value="noFormatter"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="description">
+                <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+              </property>
+              <property propertyType="validationMessage">
+                <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+              </property>
+              <property propertyType="onChange">
+                <simpleConstantValue valueType="noAction"></simpleConstantValue>
+              </property>
+              <property propertyType="layoutData">
+                <compoundValue valueType="SequentialFormLayoutData">
+                  <properties>
+                    <property propertyType="fillType">
+                      <simpleEditableSingleValue valueType="FillType" value="fillCell"></simpleEditableSingleValue>
+                    </property>
+                  </properties>
+                </compoundValue>
+              </property>
+            </properties>
+          </uiAtom>
+          <uiAtom id="P_Property" widgetType="text">
+            <properties>
+              <property propertyType="textValue">
+                <simpleEditableSingleValue valueType="VPMSComputableValue" value="P_Property"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="textAlignment">
+                <simpleEditableSingleValue valueType="AlignmentValue" value="left"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="styles">
+                <simpleEditableListValue valueType="StylesValue"></simpleEditableListValue>
+              </property>
+              <property propertyType="caption">
+                <simpleEditableSingleValue valueType="StringValue" value="Property"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="captionAlignment">
+                <simpleEditableSingleValue valueType="AlignmentValue" value="left"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="visible">
+                <simpleConstantValue valueType="TrueValue"></simpleConstantValue>
+              </property>
+              <property propertyType="editable">
+                <simpleConstantValue valueType="FalseValue"></simpleConstantValue>
+              </property>
+              <property propertyType="required">
+                <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+              </property>
+              <property propertyType="pomDataType">
+                <simpleEditableSingleValue valueType="PomDataTypeValue" value="string"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="formatter">
+                <simpleEditableSingleValue valueType="FormattingValue" value="noFormatter"></simpleEditableSingleValue>
+              </property>
+              <property propertyType="description">
+                <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+              </property>
+              <property propertyType="validationMessage">
+                <simpleConstantValue valueType="NoValue"></simpleConstantValue>
+              </property>
+              <property propertyType="onChange">
+                <simpleConstantValue valueType="noAction"></simpleConstantValue>
+              </property>
+              <property propertyType="layoutData">
+                <compoundValue valueType="SequentialFormLayoutData">
+                  <properties>
+                    <property propertyType="fillType">
+                      <simpleEditableSingleValue valueType="FillType" value="fillCell"></simpleEditableSingleValue>
+                    </property>
+                  </properties>
+                </compoundValue>
+              </property>
+            </properties>
+          </uiAtom>
+        </children>
+      </uiGroup>
+    </rootElements>
+  </uiModel>
+</stylerDocument>
